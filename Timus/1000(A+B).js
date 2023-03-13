@@ -1,3 +1,5 @@
+// Author : Tishad
+
 const n1 = parseInt(prompt());
 const n2 = parseInt(prompt());
 
