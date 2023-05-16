@@ -1,8 +1,10 @@
 #include<bits/stdc++.h>
 #include<string.h>
 using namespace std;
+#define ll long long
 
-const int N = 2e3;
+const int N = 1e5+150;
+char s[N];
 
 int main()
 {
@@ -11,10 +13,7 @@ int main()
 	
 	int l,r;
 	cin >> l >>r;
-	char s[200];
-	string tmp;
 	cin >> s;
-	tmp = s;
 	int n = strlen(s);
 	for(int i=l-1,j=r-1;i<j;++i,--j) {
 		char temp = s[i];
