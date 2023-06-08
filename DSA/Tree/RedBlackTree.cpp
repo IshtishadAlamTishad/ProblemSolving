@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -185,9 +184,6 @@ class RedBlackTree {
       deleteFix(x);
     }
   }
-
-Tishad, [6/8/2023 4:50 PM]
-// For balancing the tree after insertion
   void insertFix(NodePtr k) {
     NodePtr u;
     while (k->parent->color == 1) {
@@ -382,8 +378,7 @@ Tishad, [6/8/2023 4:50 PM]
       y->right = node;
     }
 
-Tishad, [6/8/2023 4:50 PM]
-if (node->parent == nullptr) {
+    if(node->parent == nullptr) {
       node->color = 0;
       return;
     }
@@ -420,8 +415,7 @@ int main() {
   bst.insert(57);
 
   bst.printTree();
-  cout << endl
-     << "After deleting" << endl;
+  cout << endl << "After deleting" << endl;
   bst.deleteNode(40);
   bst.printTree();
 }
