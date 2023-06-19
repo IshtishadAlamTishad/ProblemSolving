@@ -27,3 +27,5 @@ int main()
  	double a=-200,b=300;
  	bisection(a,b);
 }
+
+// T.C = O(log P)
