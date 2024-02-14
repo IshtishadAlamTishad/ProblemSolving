@@ -13,8 +13,10 @@ int main()
 	cout << "Lower bound : " << lo << '\n';
 	cout << "upper bound : " << up << '\n';
 
-  cout << "Numbers less than " << x << " is : " << lo << '\n';
-  cout << "Numbers less than or equal to " << x << " is : " << up << '\n';
+
+	cout << "Number of occurance of " << x << " is : " << (up-lo+1) << '\n';
+ 	cout << "Numbers less than " << x << " is : " << lo << '\n';
+  	cout << "Numbers less than or equal to " << x << " is : " << up << '\n';
   
 	cout << "Numbers Greater than " << x << " is : " << n-up << '\n';
 	cout << "Numbers Greater than or equal to " << x << " is : " << n-lo<< '\n';
